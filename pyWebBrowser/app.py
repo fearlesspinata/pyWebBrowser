@@ -1,8 +1,19 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QAction, QLineEdit, QVBoxLayout, QWidget, QToolBar
-from PyQt5.QtCore import QSize, Qt, QUrl 
+from PyQt5.QtWidgets import (
+        QAction,
+        QApplication, 
+        QMainWindow, 
+        QPushButton, 
+        QLineEdit, 
+        QVBoxLayout, 
+        QWidget, 
+        QToolBar
+)
+from PyQt5.QtCore import (
+        QSize, 
+        Qt, 
+        QUrl
+)
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-import sys # needed for command line arguments
-from playsound import playsound
 
 class MainWindow(QMainWindow):
     def __init__(self):
